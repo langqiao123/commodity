@@ -1,0 +1,319 @@
+18:17:24  DEBUG o.a.axis2.context.AbstractContext  - OnDemandLogger initialized for class org.apache.axis2.context.AbstractContext is:org.apache.commons.logging.impl.SLF4JLocationAwareLog@5545757a
+18:17:24  DEBUG org.apache.axis2.util.Loader  - Trying to find [org/apache/axis2/deployment/axis2_default.xml] using sun.misc.Launcher$AppClassLoader@7afa0094 class loader.
+18:17:24  DEBUG o.a.a.l.DefaultOMMetaFactoryLocator  - Starting class path based discovery
+18:17:24  DEBUG o.a.a.locator.ImplementationFactory  - Loading jar:file:/C:/Users/mingyangyang/Desktop/%e6%96%b0%e5%bb%ba%e6%96%87%e4%bb%b6%e5%a4%b9/axiom-dom-1.2.17.jar!/META-INF/axiom.xml
+18:17:25  DEBUG o.a.a.locator.ImplementationFactory  - Discovered implementations: [doom(metaFactory=org.apache.axiom.om.impl.dom.factory.OMDOMMetaFactory,features=[dom(priority=100)])]
+18:17:25  DEBUG o.a.a.locator.ImplementationFactory  - Loading jar:file:/C:/Users/mingyangyang/Desktop/%e6%96%b0%e5%bb%ba%e6%96%87%e4%bb%b6%e5%a4%b9/axiom-impl-1.2.17.jar!/META-INF/axiom.xml
+18:17:25  DEBUG o.a.a.locator.ImplementationFactory  - Discovered implementations: [llom(metaFactory=org.apache.axiom.om.impl.llom.factory.OMLinkedListMetaFactory,features=[default(priority=100)])]
+18:17:25  DEBUG o.a.a.l.PriorityBasedOMMetaFactoryLocator  - Meta factories:
+  default: org.apache.axiom.om.impl.llom.factory.OMLinkedListMetaFactory
+  dom: org.apache.axiom.om.impl.dom.factory.OMDOMMetaFactory
+18:17:25  DEBUG org.apache.axiom.om.util.StAXUtils  - About to create XMLInputFactory implementation with classloader=sun.misc.Launcher$AppClassLoader@7afa0094
+18:17:25  DEBUG org.apache.axiom.om.util.StAXUtils  - The classloader for javax.xml.stream.XMLInputFactory is: null
+18:17:25  DEBUG o.a.a.u.s.d.StAXDialectDetector  - StAX implementation at jar:file:/C:/Users/mingyangyang/Desktop/%e6%96%b0%e5%bb%ba%e6%96%87%e4%bb%b6%e5%a4%b9/woodstox-core-asl-4.2.0.jar!/ is:
+  Title:         Woodstox XML-processor
+  Symbolic name: woodstox-core-asl
+  Vendor:        http://woodstox.codehaus.org
+  Version:       4.2.0
+18:17:25  DEBUG o.a.a.u.s.d.StAXDialectDetector  - Detected StAX dialect: Woodstox 4.x
+18:17:25  DEBUG org.apache.axiom.om.util.StAXUtils  - Created XMLInputFactory = class org.apache.axiom.util.stax.wrapper.ImmutableXMLInputFactory with classloader=sun.misc.Launcher$AppClassLoader@7afa0094
+18:17:25  DEBUG org.apache.axiom.om.util.StAXUtils  - Configuration = DEFAULT
+18:17:25  DEBUG org.apache.axiom.om.util.StAXUtils  - Size of XMLInputFactory map for this configuration = 1
+18:17:25  DEBUG org.apache.axiom.om.util.StAXUtils  - Configurations for which factories have been cached = [DEFAULT]
+18:17:25  DEBUG org.apache.axiom.om.util.StAXUtils  - XMLStreamReader is org.apache.axiom.util.stax.dialect.Woodstox4StreamReaderWrapper
+18:17:25  DEBUG o.a.a.o.i.c.AxiomContainerSupport  - Builder is already complete.
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - Handler RequestURIBasedDispatcher added to Phase Transport
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - Handler SOAPActionBasedDispatcher added to Phase Transport
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - Handler AddressingBasedDispatcher added to Phase Addressing
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - Handler RequestURIBasedDispatcher added to Phase Dispatch
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - Handler SOAPActionBasedDispatcher added to Phase Dispatch
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - Handler RequestURIOperationDispatcher added to Phase Dispatch
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - Handler SOAPMessageBodyBasedDispatcher added to Phase Dispatch
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - Handler HTTPLocationBasedDispatcher added to Phase Dispatch
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - Handler RequestURIBasedDispatcher added to Phase Transport
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - Handler SOAPActionBasedDispatcher added to Phase Transport
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - Handler AddressingBasedDispatcher added to Phase Addressing
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - Handler RequestURIBasedDispatcher added to Phase Dispatch
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - Handler SOAPActionBasedDispatcher added to Phase Dispatch
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - Handler RequestURIOperationDispatcher added to Phase Dispatch
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - Handler SOAPMessageBodyBasedDispatcher added to Phase Dispatch
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - Handler HTTPLocationBasedDispatcher added to Phase Dispatch
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - Entry: AxisOperation::getInputAction
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - Exit: AxisOperation::getInputAction null
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - Entry: AxisOperation::setSoapAction, previous soapAction: null updated soapAction: urn:anonRobustOp
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - Exit: AxisOperation::setSoapAction
+18:17:25  DEBUG o.a.axis2.description.AxisService  - mapActionToOperation: Mapping Action to Operation: action: anonRobustOp; operation: org.apache.axis2.description.RobustOutOnlyAxisOperation@58a39c81named: {http://ws.apache.org/namespaces/axis2}anonRobustOp
+18:17:25  DEBUG o.a.axis2.description.AxisService  - DEBUG_FRAME = org.apache.axis2.util.JavaUtils.callStackToString(JavaUtils.java:564)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.mapActionToOperation(AxisService.java:878)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.addOperation(AxisService.java:724)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.createAnonymousService(ServiceClient.java:268)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.configureServiceClient(ServiceClient.java:171)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.<init>(ServiceClient.java:143)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.<init>(ServiceClient.java:250)
+	DEBUG_FRAME = org.apache.axis2.rpc.client.RPCServiceClient.<init>(RPCServiceClient.java:47)
+	DEBUG_FRAME = test.LogonClientWithURL.testRPC(LogonClientWithURL.java:43)
+	DEBUG_FRAME = test.LogonClientWithURL.main(LogonClientWithURL.java:37)
+
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - Entry: AxisOperation::getInputAction
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - Debug: AxisOperation::getInputAction - using soapAction
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - Exit: AxisOperation::getInputAction urn:anonRobustOp
+18:17:25  DEBUG o.a.axis2.description.AxisService  - mapActionToOperation: Mapping Action to Operation: action: urn:anonRobustOp; operation: org.apache.axis2.description.RobustOutOnlyAxisOperation@58a39c81named: {http://ws.apache.org/namespaces/axis2}anonRobustOp
+18:17:25  DEBUG o.a.axis2.description.AxisService  - DEBUG_FRAME = org.apache.axis2.util.JavaUtils.callStackToString(JavaUtils.java:564)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.mapActionToOperation(AxisService.java:878)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.addOperation(AxisService.java:728)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.createAnonymousService(ServiceClient.java:268)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.configureServiceClient(ServiceClient.java:171)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.<init>(ServiceClient.java:143)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.<init>(ServiceClient.java:250)
+	DEBUG_FRAME = org.apache.axis2.rpc.client.RPCServiceClient.<init>(RPCServiceClient.java:47)
+	DEBUG_FRAME = test.LogonClientWithURL.testRPC(LogonClientWithURL.java:43)
+	DEBUG_FRAME = test.LogonClientWithURL.main(LogonClientWithURL.java:37)
+
+18:17:25  DEBUG o.a.axis2.description.AxisService  - Client-defined operation name matches default operation name. this may cause interoperability issues.  Name is: {http://ws.apache.org/namespaces/axis2}anonOutonlyOp
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - Entry: AxisOperation::getInputAction
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - Exit: AxisOperation::getInputAction null
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - Entry: AxisOperation::setSoapAction, previous soapAction: null updated soapAction: urn:anonOutonlyOp
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - Exit: AxisOperation::setSoapAction
+18:17:25  DEBUG o.a.axis2.description.AxisService  - mapActionToOperation: Mapping Action to Operation: action: anonOutonlyOp; operation: org.apache.axis2.description.OutOnlyAxisOperation@41dd3f8anamed: {http://ws.apache.org/namespaces/axis2}anonOutonlyOp
+18:17:25  DEBUG o.a.axis2.description.AxisService  - DEBUG_FRAME = org.apache.axis2.util.JavaUtils.callStackToString(JavaUtils.java:564)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.mapActionToOperation(AxisService.java:878)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.addOperation(AxisService.java:724)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.createAnonymousService(ServiceClient.java:272)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.configureServiceClient(ServiceClient.java:171)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.<init>(ServiceClient.java:143)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.<init>(ServiceClient.java:250)
+	DEBUG_FRAME = org.apache.axis2.rpc.client.RPCServiceClient.<init>(RPCServiceClient.java:47)
+	DEBUG_FRAME = test.LogonClientWithURL.testRPC(LogonClientWithURL.java:43)
+	DEBUG_FRAME = test.LogonClientWithURL.main(LogonClientWithURL.java:37)
+
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - Entry: AxisOperation::getInputAction
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - Debug: AxisOperation::getInputAction - using soapAction
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - Exit: AxisOperation::getInputAction urn:anonOutonlyOp
+18:17:25  DEBUG o.a.axis2.description.AxisService  - mapActionToOperation: Mapping Action to Operation: action: urn:anonOutonlyOp; operation: org.apache.axis2.description.OutOnlyAxisOperation@41dd3f8anamed: {http://ws.apache.org/namespaces/axis2}anonOutonlyOp
+18:17:25  DEBUG o.a.axis2.description.AxisService  - DEBUG_FRAME = org.apache.axis2.util.JavaUtils.callStackToString(JavaUtils.java:564)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.mapActionToOperation(AxisService.java:878)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.addOperation(AxisService.java:728)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.createAnonymousService(ServiceClient.java:272)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.configureServiceClient(ServiceClient.java:171)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.<init>(ServiceClient.java:143)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.<init>(ServiceClient.java:250)
+	DEBUG_FRAME = org.apache.axis2.rpc.client.RPCServiceClient.<init>(RPCServiceClient.java:47)
+	DEBUG_FRAME = test.LogonClientWithURL.testRPC(LogonClientWithURL.java:43)
+	DEBUG_FRAME = test.LogonClientWithURL.main(LogonClientWithURL.java:37)
+
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - Entry: AxisOperation::getInputAction
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - Exit: AxisOperation::getInputAction null
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - Entry: AxisOperation::setSoapAction, previous soapAction: null updated soapAction: urn:anonOutInOp
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - Exit: AxisOperation::setSoapAction
+18:17:25  DEBUG o.a.axis2.description.AxisService  - mapActionToOperation: Mapping Action to Operation: action: anonOutInOp; operation: org.apache.axis2.description.OutInAxisOperation@58a606e3named: {http://ws.apache.org/namespaces/axis2}anonOutInOp
+18:17:25  DEBUG o.a.axis2.description.AxisService  - DEBUG_FRAME = org.apache.axis2.util.JavaUtils.callStackToString(JavaUtils.java:564)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.mapActionToOperation(AxisService.java:878)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.addOperation(AxisService.java:724)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.createAnonymousService(ServiceClient.java:276)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.configureServiceClient(ServiceClient.java:171)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.<init>(ServiceClient.java:143)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.<init>(ServiceClient.java:250)
+	DEBUG_FRAME = org.apache.axis2.rpc.client.RPCServiceClient.<init>(RPCServiceClient.java:47)
+	DEBUG_FRAME = test.LogonClientWithURL.testRPC(LogonClientWithURL.java:43)
+	DEBUG_FRAME = test.LogonClientWithURL.main(LogonClientWithURL.java:37)
+
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - Entry: AxisOperation::getInputAction
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - Debug: AxisOperation::getInputAction - using soapAction
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - Exit: AxisOperation::getInputAction urn:anonOutInOp
+18:17:25  DEBUG o.a.axis2.description.AxisService  - mapActionToOperation: Mapping Action to Operation: action: urn:anonOutInOp; operation: org.apache.axis2.description.OutInAxisOperation@58a606e3named: {http://ws.apache.org/namespaces/axis2}anonOutInOp
+18:17:25  DEBUG o.a.axis2.description.AxisService  - DEBUG_FRAME = org.apache.axis2.util.JavaUtils.callStackToString(JavaUtils.java:564)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.mapActionToOperation(AxisService.java:878)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.addOperation(AxisService.java:728)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.createAnonymousService(ServiceClient.java:276)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.configureServiceClient(ServiceClient.java:171)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.<init>(ServiceClient.java:143)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.<init>(ServiceClient.java:250)
+	DEBUG_FRAME = org.apache.axis2.rpc.client.RPCServiceClient.<init>(RPCServiceClient.java:47)
+	DEBUG_FRAME = test.LogonClientWithURL.testRPC(LogonClientWithURL.java:43)
+	DEBUG_FRAME = test.LogonClientWithURL.main(LogonClientWithURL.java:37)
+
+18:17:25  DEBUG o.a.axis2.engine.AxisConfiguration  - Adding service to allServices map: [anonService2] 
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - AxisOperation::getSoapAction urn:anonOutInOp
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - AxisOperation::getSoapAction urn:anonRobustOp
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - AxisOperation::getSoapAction urn:anonOutonlyOp
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - AxisOperation::getSoapAction urn:anonOutInOp
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - AxisOperation::getSoapAction urn:anonRobustOp
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - AxisOperation::getSoapAction urn:anonOutonlyOp
+18:17:25  DEBUG o.a.axis2.engine.AxisConfiguration  - Adding service to allEndpoints map: (anonService2,anonService2HttpSoap12Endpoint) 
+18:17:25  DEBUG o.a.axis2.engine.AxisConfiguration  - Adding service to allEndpoints map: (anonService2,anonService2HttpEndpoint) 
+18:17:25  DEBUG o.a.axis2.engine.AxisConfiguration  - Adding service to allEndpoints map: (anonService2,anonService2HttpSoap11Endpoint) 
+18:17:25  DEBUG o.a.axis2.engine.AxisConfiguration  - After adding to allEndpoints map, size is 3
+18:17:25  DEBUG o.a.a.o.i.c.s.pull.PullSerializer  - Pull serializer created; initial state is org.apache.axiom.om.impl.common.serializer.pull.Navigator@7ab51662[cache=true,document=false]
+18:17:25  DEBUG o.a.axis2.description.AxisService  - Get operation for {http://ws.apache.org/namespaces/axis2}anonOutInOp
+18:17:25  DEBUG o.a.axis2.description.AxisService  - Found axis operation:  org.apache.axis2.description.OutInAxisOperation@58a606e3
+18:17:25  DEBUG o.a.a.context.ConfigurationContext  - OnDemandLogger initialized for class org.apache.axis2.context.ConfigurationContext is:org.apache.commons.logging.impl.SLF4JLocationAwareLog@de1985e
+18:17:25  DEBUG o.a.a.context.ConfigurationContext  - registerOperationContext (false): org.apache.axis2.context.OperationContext@55da4a70 with key: urn:uuid:eda851cf-b204-4f34-b247-b8cc11eaa8fd
+18:17:25  DEBUG o.a.a.d.OutInAxisOperationClient  - Entry: OutInAxisOperationClient::execute, true
+18:17:25  DEBUG org.apache.axis2.client.Options  - getAction (null) from org.apache.axis2.client.Options@6e4d2b18
+18:17:25  DEBUG o.a.axis2.context.MessageContext  - SoapAction is (null)
+18:17:25  DEBUG org.apache.axis2.client.Options  - getAction (null) from org.apache.axis2.client.Options@c486d3b
+18:17:25  DEBUG org.apache.axis2.client.Options  - getAction (null) from org.apache.axis2.client.Options@6e4d2b18
+18:17:25  DEBUG o.a.axis2.context.MessageContext  - Old SoapAction is (null)
+18:17:25  DEBUG o.a.axis2.context.MessageContext  - New SoapAction is (null)
+18:17:25  DEBUG org.apache.axis2.client.Options  - setAction Old action is (null)
+18:17:25  DEBUG org.apache.axis2.client.Options  - setAction New action is (null)
+18:17:25  DEBUG o.a.a.d.OutInAxisOperationClient  - OutInAxisOperationClient: useAsyncOption null
+18:17:25  DEBUG o.a.a.context.ConfigurationContext  - registerOperationContext (false): org.apache.axis2.context.OperationContext@55da4a70 with key: urn:uuid:eda851cf-b204-4f34-b247-b8cc11eaa8fd
+18:17:25  DEBUG org.apache.axis2.client.Options  - getAction (null) from org.apache.axis2.client.Options@c486d3b
+18:17:25  DEBUG o.a.axis2.context.MessageContext  - WASAction is (null)
+18:17:25  DEBUG o.a.a.context.ConfigurationContext  - msgContext: [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] action: null
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking pre-condition for Phase "RMPhase"
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking phase "RMPhase"
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking post-conditions for phase "RMPhase"
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking pre-condition for Phase "OpPhase"
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking phase "OpPhase"
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking post-conditions for phase "OpPhase"
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking pre-condition for Phase "OperationOutPhase"
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking phase "OperationOutPhase"
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking post-conditions for phase "OperationOutPhase"
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking pre-condition for Phase "PolicyDetermination"
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking phase "PolicyDetermination"
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking post-conditions for phase "PolicyDetermination"
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking pre-condition for Phase "MessageOut"
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking phase "MessageOut"
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking post-conditions for phase "MessageOut"
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking pre-condition for Phase "Security"
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking phase "Security"
+18:17:25  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking post-conditions for phase "Security"
+18:17:25  DEBUG org.apache.axis2.client.Options  - getAction (null) from org.apache.axis2.client.Options@c486d3b
+18:17:25  DEBUG o.a.axis2.context.MessageContext  - SoapAction is (null)
+18:17:25  DEBUG o.a.a.t.h.CommonsHTTPTransportSender  - SOAP Action from messageContext : (null)
+18:17:25  DEBUG org.apache.axis2.client.Options  - getAction (null) from org.apache.axis2.client.Options@c486d3b
+18:17:25  DEBUG o.a.axis2.context.MessageContext  - WASAction is (null)
+18:17:25  DEBUG o.a.a.t.h.CommonsHTTPTransportSender  - SOAP Action from getWSAAction was : (null)
+18:17:25  DEBUG o.a.axis2.description.AxisOperation  - AxisOperation::getSoapAction urn:anonOutInOp
+18:17:25  DEBUG o.a.a.t.h.CommonsHTTPTransportSender  - SOAP Action from AxisOperation was : (urn:anonOutInOp)
+18:17:25  DEBUG o.a.a.t.h.CommonsHTTPTransportSender  - Will not override SOAP Action because (urn:anonOutInOp) in AxisOperation was auto-generated
+18:17:25  DEBUG org.apache.axiom.om.OMOutputFormat  - Start getContentType: OMOutputFormat [ mimeBoundary =null rootContentId=null doOptimize=false doingSWA=false isSOAP11=true charSetEncoding=UTF-8 xmlVersion=null contentType=null ignoreXmlDeclaration=false autoCloseWriter=false actionProperty=null optimizedThreshold=0]
+18:17:25  DEBUG org.apache.axiom.om.OMOutputFormat  - getContentType= {text/xml}   OMOutputFormat [ mimeBoundary =null rootContentId=null doOptimize=false doingSWA=false isSOAP11=true charSetEncoding=UTF-8 xmlVersion=null contentType=text/xml ignoreXmlDeclaration=false autoCloseWriter=false actionProperty=null optimizedThreshold=0]
+18:17:25  DEBUG o.a.a.t.http.SOAPMessageFormatter  - contentType from the OMOutputFormat =text/xml
+18:17:25  DEBUG o.a.a.t.http.SOAPMessageFormatter  - contentType returned =text/xml; charset=UTF-8
+18:17:25  DEBUG httpclient.wire.header  - >> "POST /zw?wsdl HTTP/1.1[\r][\n]"
+18:17:25  DEBUG httpclient.wire.header  - >> "Content-Type: text/xml; charset=UTF-8[\r][\n]"
+18:17:25  DEBUG httpclient.wire.header  - >> "SOAPAction: ""[\r][\n]"
+18:17:25  DEBUG httpclient.wire.header  - >> "User-Agent: Axis2[\r][\n]"
+18:17:25  DEBUG httpclient.wire.header  - >> "Host: 10.200.53.92:1111[\r][\n]"
+18:17:25  DEBUG httpclient.wire.header  - >> "Transfer-Encoding: chunked[\r][\n]"
+18:17:25  DEBUG httpclient.wire.header  - >> "[\r][\n]"
+18:17:25  DEBUG o.a.a.t.http.SOAPMessageFormatter  - start writeTo()
+18:17:25  DEBUG o.a.a.t.http.SOAPMessageFormatter  -   preserve=false
+18:17:25  DEBUG o.a.a.t.http.SOAPMessageFormatter  -   isOptimized=false
+18:17:25  DEBUG o.a.a.t.http.SOAPMessageFormatter  -   isDoingSWA=false
+18:17:25  DEBUG o.a.a.om.impl.MTOMXMLStreamWriter  - Creating MTOMXMLStreamWriter
+18:17:25  DEBUG o.a.a.om.impl.MTOMXMLStreamWriter  - OutputStream =class org.apache.commons.httpclient.ChunkedOutputStream
+18:17:25  DEBUG o.a.a.om.impl.MTOMXMLStreamWriter  - OMFormat = OMOutputFormat [ mimeBoundary =null rootContentId=null doOptimize=false doingSWA=false isSOAP11=true charSetEncoding=UTF-8 xmlVersion=null contentType=text/xml ignoreXmlDeclaration=false autoCloseWriter=false actionProperty=null optimizedThreshold=0]
+18:17:25  DEBUG o.a.a.om.impl.MTOMXMLStreamWriter  - preserveAttachments = false
+18:17:25  DEBUG org.apache.axiom.om.util.StAXUtils  - About to create XMLOutputFactory implementation with classloader=sun.misc.Launcher$AppClassLoader@7afa0094
+18:17:25  DEBUG org.apache.axiom.om.util.StAXUtils  - The classloader for javax.xml.stream.XMLOutputFactory is: null
+18:17:25  DEBUG org.apache.axiom.om.util.StAXUtils  - Created XMLOutputFactory = class org.apache.axiom.util.stax.wrapper.ImmutableXMLOutputFactory for classloader=sun.misc.Launcher$AppClassLoader@7afa0094
+18:17:25  DEBUG org.apache.axiom.om.util.StAXUtils  - Configuration = DEFAULT
+18:17:25  DEBUG org.apache.axiom.om.util.StAXUtils  - Size of XMLOutFactory map for this configuration = 1
+18:17:25  DEBUG org.apache.axiom.om.util.StAXUtils  - Configurations for which factories have been cached = [DEFAULT]
+18:17:25  DEBUG org.apache.axiom.om.util.StAXUtils  - XMLStreamWriter is org.apache.axiom.util.stax.dialect.Woodstox4StreamWriterWrapper
+18:17:25  DEBUG o.a.a.s.impl.llom.SOAPEnvelopeImpl  - Could not close builder or parser due to:
+18:17:25  DEBUG o.a.a.s.impl.llom.SOAPEnvelopeImpl  - builder is null
+18:17:25  DEBUG o.a.a.om.impl.MTOMXMLStreamWriter  - Calling MTOMXMLStreamWriter.flush
+18:17:25  DEBUG o.a.a.om.impl.MTOMXMLStreamWriter  - close
+18:17:25  DEBUG o.a.a.t.http.SOAPMessageFormatter  - end writeTo()
+18:17:25  DEBUG httpclient.wire.content  - >> "f8[\r][\n]"
+18:17:25  DEBUG httpclient.wire.content  - >> "<?xml version='1.0' encoding='UTF-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header/><soapenv:Body><hello xmlns="http://test.zw.com/"><arg0 xmlns="">type</arg0></hello></soapenv:Body></soapenv:Envelope>"
+18:17:25  DEBUG httpclient.wire.content  - >> "[\r][\n]"
+18:17:25  DEBUG httpclient.wire.content  - >> "0"
+18:17:25  DEBUG httpclient.wire.content  - >> "[\r][\n]"
+18:17:25  DEBUG httpclient.wire.content  - >> "[\r][\n]"
+18:17:25  DEBUG httpclient.wire.header  - << "HTTP/1.1 200 OK[\r][\n]"
+18:17:25  DEBUG httpclient.wire.header  - << "HTTP/1.1 200 OK[\r][\n]"
+18:17:25  DEBUG httpclient.wire.header  - << "Transfer-encoding: chunked[\r][\n]"
+18:17:25  DEBUG httpclient.wire.header  - << "Content-type: text/xml; charset=utf-8[\r][\n]"
+18:17:25  DEBUG httpclient.wire.header  - << "Date: Tue, 19 Apr 2016 10:17:24 GMT[\r][\n]"
+18:17:25  DEBUG httpclient.wire.header  - << "[\r][\n]"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() in Phase "Security"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() in Phase "MessageOut"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() in Phase "PolicyDetermination"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() in Phase "OperationOutPhase"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() in Phase "OpPhase"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=7a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() in Phase "RMPhase"
+18:17:26  DEBUG org.apache.axis2.client.Options  - getAction (null) from org.apache.axis2.client.Options@c486d3b
+18:17:26  DEBUG o.a.axis2.context.MessageContext  - Old SoapAction is (null)
+18:17:26  DEBUG o.a.axis2.context.MessageContext  - New SoapAction is (null)
+18:17:26  DEBUG org.apache.axis2.client.Options  - setAction Old action is (null)
+18:17:26  DEBUG org.apache.axis2.client.Options  - setAction New action is (null)
+18:17:26  DEBUG org.apache.axis2.client.Options  - getAction (null) from org.apache.axis2.client.Options@c486d3b
+18:17:26  DEBUG o.a.axis2.context.MessageContext  - SoapAction is (null)
+18:17:26  DEBUG o.a.axis2.transport.TransportUtils  - createSOAPEnvelope using Builder (class org.apache.axis2.builder.SOAPBuilder) selected from type (text/xml)
+18:17:26  DEBUG org.apache.axiom.om.util.StAXUtils  - About to create XMLInputFactory implementation with classloader=sun.misc.Launcher$AppClassLoader@7afa0094
+18:17:26  DEBUG org.apache.axiom.om.util.StAXUtils  - The classloader for javax.xml.stream.XMLInputFactory is: null
+18:17:26  DEBUG org.apache.axiom.om.util.StAXUtils  - Created XMLInputFactory = class org.apache.axiom.util.stax.wrapper.ImmutableXMLInputFactory with classloader=sun.misc.Launcher$AppClassLoader@7afa0094
+18:17:26  DEBUG org.apache.axiom.om.util.StAXUtils  - Configuration = SOAP
+18:17:26  DEBUG org.apache.axiom.om.util.StAXUtils  - Size of XMLInputFactory map for this configuration = 1
+18:17:26  DEBUG org.apache.axiom.om.util.StAXUtils  - Configurations for which factories have been cached = [DEFAULT, SOAP]
+18:17:26  DEBUG httpclient.wire.content  - << "5"
+18:17:26  DEBUG httpclient.wire.content  - << "e"
+18:17:26  DEBUG httpclient.wire.content  - << "[\r]"
+18:17:26  DEBUG httpclient.wire.content  - << "[\n]"
+18:17:26  DEBUG httpclient.wire.content  - << "<?xml version="1.0" ?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body>"
+18:17:26  DEBUG org.apache.axiom.om.util.StAXUtils  - XMLStreamReader is org.apache.axiom.util.stax.dialect.Woodstox4StreamReaderWrapper
+18:17:26  DEBUG o.a.a.s.i.b.StAXSOAPModelBuilder  - Starting to process SOAP 1.1 message
+18:17:26  DEBUG httpclient.wire.content  - << "[\r]"
+18:17:26  DEBUG httpclient.wire.content  - << "[\n]"
+18:17:26  DEBUG httpclient.wire.content  - << "7"
+18:17:26  DEBUG httpclient.wire.content  - << "b"
+18:17:26  DEBUG httpclient.wire.content  - << "[\r]"
+18:17:26  DEBUG httpclient.wire.content  - << "[\n]"
+18:17:26  DEBUG httpclient.wire.content  - << "<ns2:helloResponse xmlns:ns2="http://test.zw.com/"><return>[0xe4][0xbd][0xa0][0xe5][0xa5][0xbd][0xef][0xbc][0x9a]type</return></ns2:helloResponse></S:Body></S:Envelope>"
+18:17:26  DEBUG o.a.a.om.impl.builder.StAXOMBuilder  - Performing look-ahead; START_ELEMENT found
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking pre-condition for Phase "Transport"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking phase "Transport"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking Handler 'RequestURIBasedDispatcher' in Phase 'Transport'
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking Handler 'SOAPActionBasedDispatcher' in Phase 'Transport'
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking post-conditions for phase "Transport"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking pre-condition for Phase "Addressing"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking phase "Addressing"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking Handler 'AddressingBasedDispatcher' in Phase 'Addressing'
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking post-conditions for phase "Addressing"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking pre-condition for Phase "Security"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking phase "Security"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking post-conditions for phase "Security"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking pre-condition for Phase "PreDispatch"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking phase "PreDispatch"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking post-conditions for phase "PreDispatch"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking pre-condition for Phase "Dispatch"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking phase "Dispatch"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking Handler 'RequestURIBasedDispatcher' in Phase 'Dispatch'
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking Handler 'SOAPActionBasedDispatcher' in Phase 'Dispatch'
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking Handler 'RequestURIOperationDispatcher' in Phase 'Dispatch'
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking Handler 'SOAPMessageBodyBasedDispatcher' in Phase 'Dispatch'
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking Handler 'HTTPLocationBasedDispatcher' in Phase 'Dispatch'
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking post-conditions for phase "Dispatch"
+18:17:26  DEBUG o.a.a.addressing.AddressingHelper  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] isReplyRedirected: ReplyTo is null. Returning false
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking pre-condition for Phase "RMPhase"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking phase "RMPhase"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking post-conditions for phase "RMPhase"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking pre-condition for Phase "OpPhase"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking phase "OpPhase"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking post-conditions for phase "OpPhase"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking pre-condition for Phase "OperationInPhase"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking phase "OperationInPhase"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Checking post-conditions for phase "OperationInPhase"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() in Phase "OperationInPhase"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() in Phase "OpPhase"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() in Phase "RMPhase"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() in Phase "Dispatch"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() for Handler 'HTTPLocationBasedDispatcher' in Phase 'Dispatch'
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() for Handler 'SOAPMessageBodyBasedDispatcher' in Phase 'Dispatch'
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() for Handler 'RequestURIOperationDispatcher' in Phase 'Dispatch'
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() for Handler 'SOAPActionBasedDispatcher' in Phase 'Dispatch'
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() for Handler 'RequestURIBasedDispatcher' in Phase 'Dispatch'
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() in Phase "PreDispatch"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() in Phase "Security"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() in Phase "Addressing"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() for Handler 'AddressingBasedDispatcher' in Phase 'Addressing'
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() in Phase "Transport"
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() for Handler 'SOAPActionBasedDispatcher' in Phase 'Transport'
+18:17:26  DEBUG org.apache.axis2.engine.Phase  - [MessageContext: logID=0a6a29da1dcb2cb5765b2bea946b104e8b3df48fa035d2b4] Invoking flowComplete() for Handler 'RequestURIBasedDispatcher' in Phase 'Transport'
+18:17:26  DEBUG o.a.a.om.impl.builder.StAXOMBuilder  - Consuming look-ahead token START_ELEMENT
